@@ -1,0 +1,23 @@
+{
+  "name": "vite-tmp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@genex-ai/cli-demo": "^0.10.0",
+    "@types/three": "^0.185.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "@genex-ai/embed-sdk": "^0.2.0",
+    "@genex-ai/multiplayer": "^0.4.0",
+    "@sentry/browser": "^10.63.0",
+    "three": "^0.185.1"
+  }
+}
